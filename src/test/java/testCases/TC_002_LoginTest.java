@@ -26,6 +26,7 @@ public class TC_002_LoginTest extends BaseClass{
 		System.out.println(rb.getString("password"));
 		lp.clickLogin();
 		
+		
 		//MyAccountPage
 		MyAccountPage macc = new MyAccountPage(driver);
 		boolean targetPage=macc.isMyAccountPageExists();
